@@ -6,6 +6,7 @@ public class DineroManager : MonoBehaviour
 {
     public float playerMoney;
 
+
     public void UpdateMoney(float amount)
     {
 
