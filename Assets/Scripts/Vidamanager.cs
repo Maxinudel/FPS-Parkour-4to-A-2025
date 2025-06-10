@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DineroManager : MonoBehaviour
+public class Vidamanager : MonoBehaviour
 {
-    public float playerMoney;
+    public float playervida;
 
 
-    public bool UpdateMoney(float amount)
+    public bool UpdateHealth(float amount)
     {
 
-        if (playerMoney + amount < 0)
+        if (playervida + amount < 0)
         {
             //impedir compra
             return false;
         }
         else
         {
-            playerMoney += amount;
+            playervida += amount;
             return true;
         }
     }
